@@ -353,7 +353,7 @@ cout << "The length of the array is= " << len;
  */
  
     int arr[]={1,2,3,4,5};
-    printf("\n Address of array = %p %p %p", arr, &arr[0], &arr);
+    cout<<"Address of array = "<< arr << &arr[0] << &arr;
     int *ptr = &arr[0];
     ptr++;
     cout<<"The value of the second element of the array is"<<*ptr;
@@ -366,49 +366,54 @@ cout << "The length of the array is= " << len;
    The value of the second element of the array is 2 
    
    */
+        
    
+  // When using pointers, an expression like arr[i] is equivalent to writing *(arr+i)
+        
+  // arr[i], i[arr], *(arr+i), *(i+arr) gives the same value
+        
+        int arr[]={1,2,3,4,5};
+        int *ptr, i;
+        ptr=&arr[2];
+        *ptr = –1;
+        *(ptr+1) = 0;
+        *(ptr–1) = 1;
+        cout<<"The array is :";
+        for(i=0;i<5;i++)
+        {  cout<<*(arr+i)<<" ";  }
+        
+   // OUTPUT:  Array is: 1 1 –1 0 5
+        
+        
+  // Arrays Of Pointers
+        
+ //  An array of pointers can be declared as
+     int *ptr[5];      
+        
+ // The above statement declares an array of 5 pointers where each of the pointer points to an integer variable.
+        
+        int *ptr[5];
+        int p = 1, q = 2, r = 3, s = 4, t = 5;
+        ptr[0] = &p;
+        ptr[1] = &q;
+        ptr[2] = &r;
+        ptr[3] = &s;
+        ptr[4] = &t;
+        
+  printf("\n %d", *ptr[3]);
+  // OUTPUT : 4
   
-                           
- 
- 
- 
- 
- 
- 
-
-                           
-                           
- 
-                          
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-    
-    
-    
-    
-    
-    
-    
-    
-                           
-                           
-                           
-                           
-                           
-                           
-                           
-    
+int arr1[]={1,2,3,4,5};
+int arr2[]={0,2,4,6,8};
+int arr3[]={1,3,5,7,9};
+int *parr[3] = {arr1, arr2, arr3};
+int i;
+for(i = 0;i<3;i++)
+printf(«%d», *parr[i]);
+        
+// OUTPUT : 1 0 1
+        
+      
 return 0;
 }
         
