@@ -325,8 +325,9 @@ cout << "The length of the array is= " << len;
                 {
                 int i;
                 }
-                for(i= ;i<5;i++)
+                for(i= ;i<5;i++){
                 printf("%d", arr[i]);
+                }
                            
          
                            
@@ -339,6 +340,24 @@ cout << "The length of the array is= " << len;
  // We can also pass the size of the array as another parameter to the function. So for a function that accepts an array as parameter, the declaration should be as follows.
 
  func(int arr[], int n); or func(int *arr, int n);
+                           
+                           
+ // Pointers and Arrays
+                           
+ /*
+ 
+ - Array notation is a form of pointer notation
+ - The name of the array is the starting address of the array in memory. It is also known as the base address
+ - base address is the address of the first element in the array or the address of arr[0]
+ - 
+ 
+ 
+ 
+ 
+ 
+ 
+ */
+                           
                            
  
                           
