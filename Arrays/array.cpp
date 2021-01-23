@@ -286,7 +286,7 @@ cout << "The length of the array is= " << len;
         
                 void func(int *num)
                 {
-                printf("%d , *num);
+                cout<<*num;
                 }
 
         
@@ -304,7 +304,7 @@ cout << "The length of the array is= " << len;
                        
                   void func(int num)
                    {
-                    printf("%d , num);
+                   cout<<num;
                   }
                            
                     
@@ -326,7 +326,7 @@ cout << "The length of the array is= " << len;
                 int i;
                 }
                 for(i= ;i<5;i++){
-                printf("%d", arr[i]);
+                cout<<arr[i]<<" ";
                 }
                            
          
@@ -349,14 +349,33 @@ cout << "The length of the array is= " << len;
  - Array notation is a form of pointer notation
  - The name of the array is the starting address of the array in memory. It is also known as the base address
  - base address is the address of the first element in the array or the address of arr[0]
- - 
- 
- 
- 
- 
- 
  
  */
+ 
+    int arr[]={1,2,3,4,5};
+    printf("\n Address of array = %p %p %p", arr, &arr[0], &arr);
+    int *ptr = &arr[0];
+    ptr++;
+    cout<<"The value of the second element of the array is"<<*ptr;
+                           
+   /*
+   
+   OUTPUT:
+   
+   Address of array = 0x7ffda01152e0 0x7ffda01152e0 0x7ffda01152e0
+   The value of the second element of the array is 2 
+   
+   */
+   
+  
+                           
+ 
+ 
+ 
+ 
+ 
+ 
+
                            
                            
  
