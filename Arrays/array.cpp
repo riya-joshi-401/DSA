@@ -139,6 +139,7 @@ cout << "The length of the array is= " << len;
         
         
 // sort array - another method
+        
     int arr[8] = {50,100,80,10,30,500,90,440};
     int i ,j ,temp;
     for (i = 0; i < 8; i++)
@@ -160,6 +161,7 @@ cout << "The length of the array is= " << len;
         
         
 // insertion  :  insert a number at a given location in an array
+        
     int arr[5]={1,2,3,2,5};
     int i, n=5, num=0, pos=3;
     
@@ -179,6 +181,7 @@ cout << "The length of the array is= " << len;
     
     
 // insertion :  insert a number in an array that is already sorted in ascending order
+        
     int arr[5]={1,2,4,5,6};
     int i,j, n=5, num=3;
     
@@ -206,6 +209,7 @@ cout << "The length of the array is= " << len;
         
     
 // deletion :  delete a number from a given location in an array
+        
     int arr[5]={1,2,3,4,5};
     int i, n=5, pos=3;
     
@@ -221,6 +225,7 @@ cout << "The length of the array is= " << len;
     
     
 // deletion : delete a number from an array that is already sorted in ascending order
+        
     int arr[5]={1,2,3,4,5};
     int i,j, n=5, num=3;
     
@@ -241,7 +246,115 @@ cout << "The length of the array is= " << len;
     
     
     
- //  merging two arrays
+ //  merging two unsorted arrays
+        
+    int arr1[5]={5,10,3,7,9} , arr2[5]={1,6,0,14,23} , arr3[30];
+    int i , index =0 , n1=5 , n2=5;
+    int m = n1+n2;
+    
+    
+    for(i=0;i<n1;i++)
+        {
+            arr3[index] = arr1[i];
+            index++;
+        }
+    for(i=0;i<n2;i++)
+        {
+            arr3[index] = arr2[i];
+            index++;
+        }
+        
+    cout<<"The merged array is : "<<endl;
+    for(i=0;i<m;i++){
+        cout<<arr3[i]<<" ";
+    } 
+    
+        
+// passing arrays to functions  :  either we pass the whole array or individual elements ( again we have two choices either to pass data values or pass addresses )
+        
+        // 1- passing address
+        
+        // Calling function 
+        
+                main() 
+                {
+                  int arr[5] ={1, 2, 3, 4, 5};
+                  func(&arr[3]);
+                 }
+        
+        // Called function
+        
+                void func(int *num)
+                {
+                printf("%d , *num);
+                }
+
+        
+        // 2- passing data values
+               
+         // Calling function
+               
+               main()
+                {
+                int arr[5] ={1, 2, 3, 4, 5};
+                func(arr[3]);
+                }
+     
+        // Called function
+                       
+                  void func(int num)
+                   {
+                    printf("%d , num);
+                  }
+                           
+                    
+          // 3- Passing entire array
+                           
+                           
+          // Calling function
+                           
+               main()
+                {
+                int arr[5] ={1, 2, 3, 4, 5};
+                func(arr);
+                }
+
+           // Called function
+                           
+                 void func(int arr[5])
+                {
+                int i;
+                }
+                for(i= ;i<5;i++)
+                printf("%d", arr[i]);
+                           
+         
+                           
+// A function that accepts an array can declare the formal parameter in either of the two following ways.
+              
+ func(int arr[]); or func(int *arr);
+                           
+ // When a formal parameter is declared in a function header as an array, it is interpreted as a pointer to a variable and not as an array. With this pointer variable you can access all the elements of the array by using the expression: array_name + index.  
+                           
+ // We can also pass the size of the array as another parameter to the function. So for a function that accepts an array as parameter, the declaration should be as follows.
+
+ func(int arr[], int n); or func(int *arr, int n);
+                           
+ 
+                          
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
     
     
     
@@ -250,9 +363,13 @@ cout << "The length of the array is= " << len;
     
     
     
-    
-    
-    
+                           
+                           
+                           
+                           
+                           
+                           
+                           
     
 return 0;
 }
