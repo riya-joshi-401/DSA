@@ -16,6 +16,6 @@ def kandane(A):
     
 
     
-A=[-2, 1, -3, 4]
+A=[-2,1,-3,4,-1,2,1,-5,4]
 ans=kandane(A)
 print("Maximum sum of subarray : ",ans)
