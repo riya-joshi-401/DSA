@@ -1,3 +1,9 @@
+# Time complexity :
+# Space complexity : 
+
+""" We didvide the array in two halves , if the middle element is the element that we were looking for then our search completes , 
+else we check whether the element we are looking is smaller or bigger than the middle element , then according we split the small part
+into two halves again and this process goes on untill we find the element if present else return -1  """
 
 def binarysearch(self, arr, n, k):
 	
@@ -6,7 +12,7 @@ def binarysearch(self, arr, n, k):
 		
 	while l <= r: 
   
-		mid = l + (r - l) // 2
+		mid = l + (r - l) // 2  # mid = (low + high )//2 = low + (high-low)//2
 
 		# Check if x is present at mid 
 		if arr[mid] == k: 
