@@ -1,4 +1,4 @@
-<u><b>Types of Searching : </b></u>
+<u>Types of Searching : </u>
 <li>Unordered Linear Search</li>
 <li>Sorted/Ordered Linear Search</li>
 <li>Binary Search</li>
