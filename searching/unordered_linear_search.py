@@ -7,6 +7,5 @@ int UnOrderedLinearSearch(int A[] , int n , int data):
   for i in range(0,n):
     if A[i]==data:
       return i
-      
   return -1
   
