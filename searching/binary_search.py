@@ -1,5 +1,5 @@
-# Time complexity :
-# Space complexity : 
+# Time complexity : O(logn)
+# Space complexity : O(1)
 
 """ We divide the array in two halves , if the middle element is the element that we were looking for then our search completes , 
 else we check whether the element we are looking is smaller or bigger than the middle element , then accordingly we split the  part
