@@ -15,7 +15,7 @@
 <li>Time complexity shows only the order of magnitude and not the exact number of times the code was executed ( for ex: 3n+5 , n/2 , n**2+1 )</li>
 <li>If the algorithm consists of consecutive phases, the total time complexity is the largest time complexity of a single phase.</li>
 <li>For ex : if a code has O(n) , O(n**2) , O (n) complexities in phases then the complexity of the overall code will be just O(n**2)</li>
-<li>f we have two nested loops with n & m variables then their tc will be O(n*m)</li>
+<li>If we have two nested loops with n & m variables then their tc will be O(n*m)</li>
 <br><br>
 (2) Recursion : 
 <br><br>
