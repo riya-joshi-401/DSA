@@ -19,5 +19,7 @@
 <br><br>
 (2) Recursion : 
 <br><br>
-<li></li>
-<li></li>
+<li>The time complexity of a recursive function depends on the number of times the function is called and the time complexity of a single call. </li>
+<li>The total time complexity is the product of these values</li>
+<li>Ex: If the call f(n) causes n function calls, and the time complexity of each call is O(1). Thus, the total time complexity is O(n)</li>
+<li>Ex: If two calls are genereated then tc will be O(2**n)</li>
