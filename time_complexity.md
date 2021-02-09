@@ -7,7 +7,7 @@
 <li>By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.</li>
 <br>
 <ins>Calculation rules</ins>
-
+<br>
 (1) Loops : 
 
 <li>The more nested loops the algorithm contains, the slower it is.</li>
@@ -18,6 +18,6 @@
 <li>f we have two nested loops with n & m variables then their tc will be O(n*m)</li>
 <br>
 (2) Recursion : 
-
+<br>
 <li></li>
 <li></li>
