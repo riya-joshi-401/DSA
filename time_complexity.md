@@ -7,7 +7,7 @@
 <li>By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.</li>
 <br>
 <ins>Calculation rules</ins>
-<br>
+<br><br>
 (1) Loops : 
 <br>
 <li>The more nested loops the algorithm contains, the slower it is.</li>
