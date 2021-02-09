@@ -9,7 +9,7 @@
 <ins>Calculation rules</ins>
 <br>
 (1) Loops : 
-
+<br>
 <li>The more nested loops the algorithm contains, the slower it is.</li>
 <li>If there are k nested loops, the time complexity is O(n**k).</li>
 <li>Time complexity shows only the order of magnitude and not the exact number of times the code was executed ( for ex: 3n+5 , n/2 , n**2+1 )</li>
