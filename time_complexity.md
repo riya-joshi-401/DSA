@@ -6,7 +6,7 @@
 <li>The idea is to represent the efficiency as an function whose parameter is the size of the input. </li>
 <li>By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.</li>
 
-# Calculation rules
+<ise>Calculation rules</ise>
 
 <li></li>
 <li></li>
