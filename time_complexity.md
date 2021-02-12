@@ -23,3 +23,31 @@
 <li>The total time complexity is the product of these values</li>
 <li>Ex: If the call f(n) causes n function calls, and the time complexity of each call is O(1). Thus, the total time complexity is O(n)</li>
 <li>Ex: If two calls are genereated then tc will be O(2**n)</li>
+<br><br>
+<ins>Complexity classes</ins>
+<li><ins>O(1)</ins> : The running time of a constant-time algorithm does not depend on the
+input size. A typical constant-time algorithm is a direct formula that
+calculates the answer</li>
+<li><ins>O(logn)</ins> : A logarithmic algorithm often halves the input size at each step. The
+running time of such an algorithm is logarithmic, because log2 n equals the
+number of times n must be divided by 2 to get 1.</li>
+<li><ins>O(n**0.5)</ins> : A square root algorithm is slower than O(logn) but faster than O(n).
+</li>
+<li><ins>O(n)</ins> :  A linear algorithm goes through the input a constant number of times. This
+is often the best possible time complexity, because it is usually necessary to
+access each input element at least once before reporting the answer.</li>
+<li><ins>O(nlogn)</ins> : This time complexity often indicates that the algorithm sorts the input,
+because the time complexity of efficient sorting algorithms is O(nlogn).
+Another possibility is that the algorithm uses a data structure where each
+operation takes O(logn) time.</li>
+<li><ins>O(n**2)</ins> : A quadratic algorithm often contains two nested loops. It is possible to
+go through all pairs of the input elements in O(n**2) time.</li>
+<li><ins>O(n**3)</ins> : A cubic algorithm often contains three nested loops. It is possible to go
+through all triplets of the input elements in O(n**3) time.</li>
+<li><ins>O(2**n)</ins> : This time complexity often indicates that the algorithm iterates through
+all subsets of the input elements. For example, the subsets of {1,2,3} are ;,
+{1}, {2}, {3}, {1,2}, {1,3}, {2,3} and {1,2,3}</li>
+<li><ins>O(n!)</ins> : This time complexity often indicates that the algorithm iterates through
+all permutations of the input elements. For example, the permutations of
+{1,2,3} are (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2) and (3,2,1).
+</li>
