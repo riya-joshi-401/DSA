@@ -24,7 +24,7 @@
 <li>Ex: If the call f(n) causes n function calls, and the time complexity of each call is O(1). Thus, the total time complexity is O(n)</li>
 <li>Ex: If two calls are genereated then tc will be O(2**n)</li>
 <br><br>
-<ins>Complexity classes</ins>
+<ins>Complexity classes</ins><br><br>
 <li><ins>O(1)</ins> : The running time of a constant-time algorithm does not depend on the
 input size. A typical constant-time algorithm is a direct formula that
 calculates the answer</li>
