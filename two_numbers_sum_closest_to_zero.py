@@ -2,7 +2,7 @@ import sys
 
 def minAbsSumPair(arr, n):
     
-    # variables to keep track of current sum and minimum sum 
+    # variables to keep track of minimum sum 
     min_sum = sys.maxsize
   
     # left and right index variables 
