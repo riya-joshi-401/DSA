@@ -5,7 +5,6 @@ baseaddress of the array and one multiplication is needed to compute what is sup
 get the memory address of the element. First the size of an element of that datatype is calculated and then it is multiplied 
 with the index of the element to get the value to beadded to the base address.This process takes one multiplication and one addition. 
 Since these two operations take constanttime, we can say the array access can be performed in constant time. )</li>
-
 <br>
 <ins>Disadvantage of array</ins>:
 <li>Preallocates all needed memory up front and wastes memory space for indices in thearray that are empty.</li>
