@@ -7,7 +7,7 @@ with the index of the element to get the value to beadded to the base address.Th
 Since these two operations take constanttime, we can say the array access can be performed in constant time. )</li>
 
 <br>
-<ins>Disadvantage of array</ins>
+<ins>Disadvantage of array</ins>:
 <li>Preallocates all needed memory up front and wastes memory space for indices in thearray that are empty.</li>
 <li>Fixed size: The size of the array is static (specify the array size before using it).</li>
 <li>One block allocation: To allocate the array itself at the beginning, sometimes it maynot be possible to get the memory for the complete array (if the array size is big).</li>
