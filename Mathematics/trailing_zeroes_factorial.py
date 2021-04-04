@@ -12,7 +12,8 @@ class Solution:
                 i=i*5
             return(c)
           
-# my solutions that gave TLE but will work if O(N) space is allowed ..hope :)
+# https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
+# my solutions that gave TLE ...naive solutions :)
 
 import math
 
