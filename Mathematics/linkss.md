@@ -7,3 +7,6 @@ https://www.geeksforgeeks.org/progressions-ap-gp-hp/
 https://www.geeksforgeeks.org/sum-of-first-n-terms-of-a-given-series-3-6-11/
 <br>
 (2) https://www.geeksforgeeks.org/ratio-of-mth-and-nth-terms-of-an-a-p-with-given-ratio-of-sums/
+<br>
+(3) Seive of eratosthenes<br>
+https://www.geeksforgeeks.org/sieve-of-eratosthenes/
