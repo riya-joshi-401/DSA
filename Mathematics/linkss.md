@@ -10,3 +10,7 @@ https://www.geeksforgeeks.org/sum-of-first-n-terms-of-a-given-series-3-6-11/
 <br>
 (3) Seive of eratosthenes<br>
 https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+<br>
+(4) LCM,HCF brush up--dumb dumb :)
+https://www.geeksforgeeks.org/lcm-and-hcf/
+
