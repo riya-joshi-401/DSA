@@ -1,4 +1,4 @@
-<ins>Imp links</ins> ( NOTE TO SELF: I have read all these links once , and seen the approach , but visit once while revising )
+<ins>Imp links</ins> ( NOTE TO SELF: I have read all these links once , and seen the approach , but you should visit these once while revising )
 <br>
 https://www.geeksforgeeks.org/progressions-ap-gp-hp/
 <br>
