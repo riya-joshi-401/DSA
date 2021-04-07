@@ -13,4 +13,7 @@ https://www.geeksforgeeks.org/sieve-of-eratosthenes/
 <br>
 (4) LCM,HCF brush up--dumb dumb :)<br>
 https://www.geeksforgeeks.org/lcm-and-hcf/
+<br>
+(5) Permutation , Combinations --noice article<br>
+https://www.geeksforgeeks.org/permutation-and-combination/
 
