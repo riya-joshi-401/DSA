@@ -16,4 +16,8 @@ https://www.geeksforgeeks.org/lcm-and-hcf/
 <br>
 (5) Permutation , Combinations --noice article<br>
 https://www.geeksforgeeks.org/permutation-and-combination/
+<br>
+(6) Modular arithmetic<br>
+https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/<br>
+https://www.geeksforgeeks.org/modular-arithmetic/#:~:text=Modular%20Arithmetic,multiplication%2C%20division%20or%20any%20other.
 
