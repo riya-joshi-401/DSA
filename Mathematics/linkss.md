@@ -19,5 +19,8 @@ https://www.geeksforgeeks.org/permutation-and-combination/
 <br>
 (6) Modular arithmetic<br>
 https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/     (didnt understood the iterative O(logn) solution and also its not working on any compiler :) better to just use direct power type stuff in python<br>
-https://www.geeksforgeeks.org/modular-arithmetic/#:~:text=Modular%20Arithmetic,multiplication%2C%20division%20or%20any%20other.
-
+https://www.geeksforgeeks.org/modular-arithmetic/#:~:text=Modular%20Arithmetic,multiplication%2C%20division%20or%20any%20other.<br>
+(7) Euclidean algorithms (Basic and Extended)<br>
+https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/<br>
+(8) Fermat’s little theorem<br>
+https://www.geeksforgeeks.org/fermats-little-theorem/<br>
