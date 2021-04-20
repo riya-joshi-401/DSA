@@ -24,3 +24,5 @@ https://www.geeksforgeeks.org/modular-arithmetic/#:~:text=Modular%20Arithmetic,m
 https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/<br>
 (8) Fermat’s little theorem<br>
 https://www.geeksforgeeks.org/fermats-little-theorem/<br>
+(9) <ins>itertools</ins>
+https://www.geeksforgeeks.org/python-itertools/
