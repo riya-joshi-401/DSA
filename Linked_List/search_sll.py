@@ -33,6 +33,7 @@ class LinkedList:
             print(temp.data)
             temp=temp.next
             
+    # search element        
     def search(self,val):
         
         pos=0
