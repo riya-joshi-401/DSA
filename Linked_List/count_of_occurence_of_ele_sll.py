@@ -33,7 +33,7 @@ class LinkedList:
             print(temp.data)
             temp=temp.next
             
-    # count occurence of the given element form linked list    
+    # count occurence of the given element from linked list    
     def count_of_occurence_of_ele(self,ele):
         
         counter=0
