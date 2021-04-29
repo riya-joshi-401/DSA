@@ -16,14 +16,14 @@ class LinkedList:
         new_node=Node(new_data)
         
         if self.head==None: # if linked list is empty
-            new_node.next=new_node
+            new_node.next=new_node # since it would be the first element so we will connect it with self (like a loop!!!!! :) )
             self.head=new_node
             
         else:
             
-            new_node.next = self.head.next
-            self.head.next = new_node
-            self.head = new_node
+            new_node.next = self.head.next # connecting the new element to the first element
+            self.head.next = new_node # connecting head to the new element
+            self.head = new_node # making the head point to the new element
             
             
     # display linked list
@@ -32,11 +32,11 @@ class LinkedList:
         if self.head==None:
             print("Linked list is empty")
         else:
-            temp=self.head
+            temp=self.head.next # first element
             while True:
                 print(temp.data)
                 temp=temp.next
-                if temp==self.head:
+                if temp==self.head.next: # if again first element found stop :)
                     break
             
 obj=LinkedList()    
@@ -49,4 +49,3 @@ obj.insert_end(50)
 
 
 obj.display()
-
