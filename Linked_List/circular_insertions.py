@@ -65,7 +65,7 @@ class LinkedList:
         
 
     # insert at begin
-    def insert_end(self,new_data):
+    def insert_begin(self,new_data):
         
         new_node=Node(new_data)
         
@@ -98,18 +98,17 @@ class LinkedList:
             
 obj=LinkedList()    
 
-obj.insert_end(10)
-obj.insert_end(20)
-obj.insert_end(30)
-obj.insert_end(40)
-obj.insert_end(50)
+obj.insert_begin(10)
+obj.insert_begin(20)
+obj.insert_begin(30)
+obj.insert_begin(40)
+obj.insert_begin(50)
 
 
 obj.display()
 
 
 ##############################################################################################################################################################################
-
 class Node: 
     
     def __init__(self, data): 
@@ -193,8 +192,6 @@ obj.insert_before(0,-1)
 obj.display()
 
 ####################################################################################################################################################################
-
-
 class Node: 
     
     def __init__(self, data): 
