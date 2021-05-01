@@ -8,3 +8,4 @@ def findMid(head):
         
     return li[len(li)//2]
     
+# in case of even length was asked to find the second middle element
