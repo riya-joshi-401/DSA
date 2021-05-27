@@ -89,3 +89,31 @@ if __name__ == '__main__':
         res = Solution().addTwoLists(LL1.head, LL2.head)
         printList(res)
 # } Driver Code Ends
+
+
+
+
+
+
+
+------------------------------------------------------
+
+def rev(head):
+ curr, prev, next = head, None, None
+ while curr: 
+ next, curr.next = curr.next, prev
+ prev, curr = curr, next
+ return prev
+ 
+def addLists(a, b):
+ total = carry = 0
+ one, two, node = rev(a), rev(b), Node(0)
+ head = node
+ while one or two or carry:
+ d1, d2 = one.data if one else 0, two.data if two else 0
+ total = d1 + d2 + carry
+ carry = total // 10
+ node.next = Node(total % 10)
+ node = node.next
+ one, two = one.next if one else None, two.next if two else None
+ return rev(head.next)
