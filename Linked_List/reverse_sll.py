@@ -1,3 +1,17 @@
+
+class Solution:
+    #Function to reverse a linked list.
+    def reverseList(self, head):
+        
+        curr, prev, next = head, None, None
+        while curr: 
+            next, curr.next = curr.next, prev
+            prev, curr = curr, next
+        return prev
+
+
+--------------------------------------------------------------------
+
 class Solution:
     def reverseList(self, head):
         if head is None:
