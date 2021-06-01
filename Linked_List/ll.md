@@ -1,0 +1,1 @@
+https://www.tutorialcup.com/interview/linked-list/reverse-linked-list-less-time.htm#:~:text=Can%20we%20write%20an%20algorithm%20to%20reverse%20the,reach%20last%20node%20which%20takes%20O%20%28n%29%20time.
