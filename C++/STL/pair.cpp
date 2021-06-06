@@ -3,30 +3,30 @@
 using namespace std;
 
 
-void explainPair() {
+void Pair() {
 
-	pair<int, int> p = {1, 3};
+	pair<int, string> p = {100, "hey"};
 
-	// prints 1 3
+	// prints 100 hey
 	cout << p.first << " " << p.second<<endl;
 
 
-	pair<int, pair<int, int>> q = {1, {3, 4}};
+	pair<int, pair<int, int>> q = {1, {2, 3}};
 
-	// prints 1 4 3
-	cout << q.first << " " << q.second.second << " " << q.second.first<<endl;
+	// prints 1 2 3
+	cout << q.first << " " << q.second.first << " " << q.second.second<<endl;
 
 
-	pair<int, int> arr[] = { {1, 2}, {2, 5}, {5, 1}};
+	pair<int, int> arr[] = { {1, 2}, {3, 4}, {5, 6}};
 
-	// Prints 5
-	cout << arr[1].second<<endl;
+	// Prints 1
+	cout << arr[0].first<<endl;
 
 }
 
 int main()
 {
-    explainPair();
+    Pair();
 
     return 0;
 }
