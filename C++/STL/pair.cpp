@@ -10,9 +10,9 @@ void Pair() {
 	cout << p.first << " " << p.second<<endl;
 	
 	pair<char, char> P;
-    P.first = 'R';
-    P.second = 'J';
-    cout << P.first << " "<< P.second << endl;
+	P.first = 'R';
+	P.second = 'J';
+	cout << P.first << " "<< P.second << endl;
 	
 	pair<int, pair<int, int>> q = {1, {2, 3}};
 	// prints 1 2 3
