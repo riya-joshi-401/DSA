@@ -12,7 +12,6 @@ void Pair() {
         pair  <int, int>p3(1, 10);  //initialized,  same data type
         pair  <int, int>p4(p3);    //copy of g3
 
-
 	pair<int, string> p = {1000, "hey"};
 	// prints 100 hey
 	cout << p.first << " " << p.second<<endl;
