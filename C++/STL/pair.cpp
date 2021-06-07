@@ -6,7 +6,7 @@ using namespace std;
 void Pair() {
     
     // different ways to initialize
-    pair  <int, int>p1;           //default
+    pair  <int, int>p1;           //default , If not initialized, the values of the pair gets automatically initialized to 0
     pair  <int, char>p2(1, 'a');  //initialized,  different data type
     pair  <int, int>p3(1, 10);  //initialized,  same data type
     pair  <int, int>p4(p3);    //copy of g3
