@@ -13,6 +13,8 @@ void Vector() {
 	
 	vector<pair<int, int>>vec; // Vector having pair as its element
 	
+	vector<int> ve = { 10, 20, 30 };
+	
 	vector<int> x(5, 100); // Vector of size 5 with everyone as 100 , {100, 100, 100, 100, 100}
 
 	vector<int> y(5); // A vector of size 5 , initialized with 0 might take garbage value, dependent on the vector , {0, 0, 0, 0, 0}
@@ -37,6 +39,8 @@ void Vector() {
 	v.emplace(v.begin()+2,3); // {1,2,3}
 	
 	v.insert(v.begin()+3,4); // {1,2,3,4}
+	
+	v.insert(v.begin() + 4, { 5, 6, 7, 8, 9, 10 }); // {1,2,3,4,5,6,7,8,9,10}
 	
     // Ways to print the vector and its elements
     
@@ -64,46 +68,22 @@ void Vector() {
         cout << *ir << " ";
         
     cout<< "\nPrinting elements from 0 - size of vector : ";
-    int* pos = g1.data();
-    for (int i = 0; i < g1.size(); ++i)
-        cout << *pos++ << " ";
+    for (int i = 0; i < v.size(); i++)
+        cout << v[i] << " ";
 
-// 	// Take the vector to be {10, 20, 30, 40}
-// 	vector<int>::iterator it = v.begin();
+    cout<<endl;
+    
+    cout << g1[0] << " "<<endl;
 
-// 	it++;
-// 	cout << *(it) << " "; // prints 20
-
-
-// 	it = it + 2;
-// 	cout << *(it) << " "; // prints 30
-
-// 	vector<int>::iterator it = v.end();
-
-// 	vector<int>::iterator it = v.rend();
-
-// 	vector<int>::iterator it = v.rbegin();
-
-
-
-// 	cout << v[0] << " " << v.at(0);
-
-// 	cout << v.back() << " ";
+    cout << g1.back() << " ";
+    
+    
 
 // 	// {10, 20, 12, 23}
 // 	v.erase(v.begin()+1);
 
 // 	// {10, 20, 12, 23, 35}
 // 	v.erase(v.begin() + 2, v.begin() + 4); // // {10, 20, 35} [start, end)
-
-// 	// Insert function
-
-// 	vector<int>v(2, 100); // {100, 100}
-// 	v.insert(v.begin(), 300); // {300, 100, 100};
-// 	v.insert(v.begin() + 1, 2, 10); // {300, 10, 10, 100, 100}
-
-// 	vector<int> copy(2, 50); // {50, 50}
-// 	v.insert(v.begin(), copy.begin(), copy.end()); // {50, 50, 300, 10, 10, 100, 100}
 
 // 	// {10, 20}
 // 	cout << v.size(); // 2
