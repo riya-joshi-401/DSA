@@ -113,6 +113,12 @@ void Vector() {
     cout<<b1[0]<<" "<<b1[1]<<endl;
     cout<<b2[0]<<" "<<b2[1]<<endl;
 
+    // sorting a Vector
+    
+    vector <int> temp = {1,0,8,3,2,5,4};
+    sort(temp.begin(), temp.end());
+    for (int i = 0; i < temp.size(); i++)
+        cout << temp[i] << " ";
 
 }
 
