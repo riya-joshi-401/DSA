@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <bits/stdc++.h>
+#include <typeinfo>
 using namespace std;
 
 
@@ -123,6 +124,16 @@ void Vector() {
 	
    // descending order
   sort(v.begin(), v.end(), greater<int>());
+	
+	
+     cout<<endl;    
+    // array to vector 
+    
+    int h[] = { 1, 2, 3, 4, 5 };
+    vector<int> w(begin(h), end(h));
+    cout<<w[0]<<endl;
+    cout<<typeid(h).name()<<endl;
+    cout<<typeid(w).name()<<endl;
 
 }
 
