@@ -134,6 +134,11 @@ void Vector() {
     cout<<w[0]<<endl;
     cout<<typeid(h).name()<<endl;
     cout<<typeid(w).name()<<endl;
+	
+    // vector to array
+    
+    int* pls = &w[0];
+    cout<<typeid(pls).name()<<endl;
 
 }
 
