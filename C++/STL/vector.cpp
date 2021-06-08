@@ -24,19 +24,20 @@ void Vector() {
 	
 	/* Ways to insert data 
 	
-	1- push_back
-	2- emplace_back
+	1- push_back: It push the elements into a vector from the back
+	2- emplace_back:  It is used to insert a new element into the vector container, the new element is added to the end of the vector
+	3- emplace: It extends the container by inserting new element at position
+	4- insert: It inserts new elements before the element at the specified position
 	*/
 
 	v.push_back(1); // {1}
-	vec.push_back({1, 2});
 	
 	v.emplace_back(2); // {1, 2}
-	vec.emplace_back(1, 2);
 	
-
+	v.emplace(v.begin()+2,3); // {1,2,3}
 	
-
+	v.insert(v.begin()+3,4); // {1,2,3,4}
+	
     // Ways to print the vector and its elements
     
     // begin()-end() and cbegin()-cend(): prints in normal order , rbegin()-rend() and crbegin()-crend(): prints in reverse order
