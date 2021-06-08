@@ -115,10 +115,14 @@ void Vector() {
 
     // sorting a Vector
     
+   // ascending order
     vector <int> temp = {1,0,8,3,2,5,4};
     sort(temp.begin(), temp.end());
     for (int i = 0; i < temp.size(); i++)
         cout << temp[i] << " ";
+	
+   // descending order
+  sort(v.begin(), v.end(), greater<int>());
 
 }
 
