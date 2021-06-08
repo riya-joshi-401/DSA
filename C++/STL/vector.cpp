@@ -24,10 +24,10 @@ void Vector() {
 	
 	/* Ways to insert data 
 	
-	1- push_back: It push the elements into a vector from the back
-	2- emplace_back:  It is used to insert a new element into the vector container, the new element is added to the end of the vector
-	3- emplace: It extends the container by inserting new element at position
-	4- insert: It inserts new elements before the element at the specified position
+	1- push_back: It is used to insert a new element at the end of vector
+	2- emplace_back:  It is used to insert a new element at the end of vector
+	3- emplace: It inserts new elements at the specified position
+	4- insert: It inserts new elements at the specified position
 	*/
 
 	v.push_back(1); // {1}
@@ -62,6 +62,11 @@ void Vector() {
     cout << "\nOutput of crbegin and crend : ";
     for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir)
         cout << *ir << " ";
+        
+    cout<< "\nPrinting elements from 0 - size of vector : ";
+    int* pos = g1.data();
+    for (int i = 0; i < g1.size(); ++i)
+        cout << *pos++ << " ";
 
 // 	// Take the vector to be {10, 20, 30, 40}
 // 	vector<int>::iterator it = v.begin();
