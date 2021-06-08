@@ -74,19 +74,42 @@ void Vector() {
     cout<<endl;
     
     cout << g1[0] << " "<<endl;
+    
+    cout << g1.front()<<endl;
 
-    cout << g1.back() << " ";
+    cout << g1.back() <<endl;
     
     
+    /* Ways to delete data 
+	
+	1- pop_back: It is used to pop or remove elements from a vector from the back.
+	2- erase: It is used to remove elements from a container from the specified position or range.
+	3- clear: It is used to remove all the elements of the vector container
+	
+	-----------------------------------------------------------------------------------------------
+	
+	empty: is used to check if the vector container is empty or not.
+	
+	*/
+	
+	vector <int> a={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+	
+	a.pop_back(); // {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+	
+	a.erase(a.begin()); // {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+	
+	a.erase(a.begin() , a.begin()+10);   // {11,12,13,14,15,16,17,18,19}
+	
+	a.clear(); // empty
+	
+	cout<<"Is empty? "<<a.empty()<<endl; // will return 1 if True else 0
+	
 
 // 	// {10, 20, 12, 23}
 // 	v.erase(v.begin()+1);
 
 // 	// {10, 20, 12, 23, 35}
 // 	v.erase(v.begin() + 2, v.begin() + 4); // // {10, 20, 35} [start, end)
-
-// 	// {10, 20}
-// 	cout << v.size(); // 2
 
 // 	//{10, 20}
 // 	v.pop_back(); // {10}
