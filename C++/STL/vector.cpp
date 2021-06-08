@@ -105,22 +105,14 @@ void Vector() {
 	cout<<"Is empty? "<<a.empty()<<endl; // will return 1 if True else 0
 	
 
-// 	// {10, 20, 12, 23}
-// 	v.erase(v.begin()+1);
+    // swapping 
+    
+    vector <int> b1 = {10, 20};
+    vector <int> b2 = {30, 40};
+    b1.swap(b2); 
+    cout<<b1[0]<<" "<<b1[1]<<endl;
+    cout<<b2[0]<<" "<<b2[1]<<endl;
 
-// 	// {10, 20, 12, 23, 35}
-// 	v.erase(v.begin() + 2, v.begin() + 4); // // {10, 20, 35} [start, end)
-
-// 	//{10, 20}
-// 	v.pop_back(); // {10}
-
-// 	// v1 -> {10, 20}
-// 	// v2 -> {30, 40}
-// 	v1.swap(v2); // v1 -> {30, 40} , v2 -> {10, 20}
-
-// 	v.clear(); // erases the entire vector
-
-// 	cout << v.empty();
 
 }
 
