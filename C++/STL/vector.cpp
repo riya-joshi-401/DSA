@@ -1,4 +1,3 @@
-// https://www.geeksforgeeks.org/vector-in-cpp-stl/
 
 #include <iostream>
 #include <bits/stdc++.h>
