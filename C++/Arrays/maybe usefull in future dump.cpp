@@ -44,3 +44,6 @@ public:
 
 // copy elements from one array to another
 memcpy(arr, temp, sizeof(arr));
+
+// extending an vector to add another vector elements into it
+positive.insert(positive.end(), negative.begin(), negative.end());
