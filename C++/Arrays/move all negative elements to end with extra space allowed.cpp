@@ -21,7 +21,7 @@ class Solution{
             if (arr[i] < 0)
                 temp[j++] = arr[i];
      
-        // Copy contents of temp[] to arr[]
+        // Copy contents of temp[] to arr[] :)
         memcpy(arr, temp, sizeof(temp));
     }
 };
