@@ -42,8 +42,8 @@ public:
     }
 };
 
-// copy elements from one array to another
-memcpy(arr, temp, sizeof(arr));
+// copy elements from temp to arr ( both are arrays )
+memcpy(arr, temp, sizeof(temp));
 
 // extending an vector to add another vector elements into it
 positive.insert(positive.end(), negative.begin(), negative.end());
