@@ -41,3 +41,6 @@ public:
         return answer;
     }
 };
+
+// copy elements from one array to another
+memcpy(arr, temp, sizeof(arr));
