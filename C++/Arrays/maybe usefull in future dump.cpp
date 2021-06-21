@@ -26,6 +26,7 @@ public:
     int findDuplicate(vector<int>& nums) {
         vector<int>temp=nums;
         int answer=0;
+	// VERY IMPORTANT MISSING STEP: SORT THE ARRAY BEFORE USING UNIQUE FUNCTION , MY DUMB ASS LEARNT THIS TODAY ;)
         auto it = unique(begin(nums), end(nums));
         nums.erase(it, end(nums));
         for(int i=0;i<nums.size();i++){
