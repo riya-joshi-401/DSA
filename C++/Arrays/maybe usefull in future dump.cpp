@@ -18,7 +18,9 @@ string isSubset(int a1[], int a2[], int n, int m) {
     
 }
 
+
 // removing duplicates from a vector using unique and counting occurence of an element in vector
+// https://www.geeksforgeeks.org/std-count-cpp-stl/
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
