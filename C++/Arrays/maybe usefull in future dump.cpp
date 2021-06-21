@@ -17,3 +17,25 @@ string isSubset(int a1[], int a2[], int n, int m) {
 	}
     
 }
+
+// removing duplicates from a vector using unique and counting occurence of an element in vector
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        vector<int>temp=nums;
+        int answer=0;
+        auto it = unique(begin(nums), end(nums));
+        nums.erase(it, end(nums));
+        for(int i=0;i<nums.size();i++){
+            if(count(temp.begin(), temp.end(), nums[i])>1){
+                
+                answer=nums[i];
+                
+            }
+        }
+        
+        
+        
+        return answer;
+    }
+};
