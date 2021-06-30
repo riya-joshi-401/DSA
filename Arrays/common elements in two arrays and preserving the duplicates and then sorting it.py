@@ -27,3 +27,25 @@ class Solution:
                     
             ans.sort()        
             return ans
+
+        # another same method but using counter so dont need to loop
+        
+
+        from collections import Counter
+
+        class Solution:
+            def common_element(self,v1,v2):
+
+                li=[]
+                v1_c=Counter(v1)
+                v2_c=Counter(v2)
+
+                for i in v1_c:
+
+                    if i in v2_c:
+
+                        m=min(v1_c[i],v2_c[i])
+                        li+=[i]*m
+
+                li.sort()
+                return li
