@@ -8,9 +8,7 @@ class Solution:
     # with sum exactly equal to k.  
     def findSubarraySum(self,arr, n, Sum):  
        
-        # Dictionary to store number of subarrays  
-        # starting from index zero having   
-        # particular value of sum.  
+        # Dictionary to store number of subarrays starting from index zero having particular value of sum.  
         prevSum = defaultdict(lambda : 0)  
         
         """
