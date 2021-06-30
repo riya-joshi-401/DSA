@@ -21,3 +21,20 @@ class Solution:
         
         if flag==False:
             return -1
+        
+        
+    # another same method , i had done it some months ago :)
+    
+    from collections import Counter
+
+    class Solution:
+
+        def firstRepeated(self,arr, n):
+
+            store=Counter(arr)
+
+            for i in arr:
+                if store[i]>1:
+                    return arr.index(i)+1
+                    break
+            return -1      
