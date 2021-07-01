@@ -77,6 +77,21 @@ class student{
         cout<<"Marks: "<<marks<<endl; // we can easily access "marks" data member inside a class even tho its private
     }
     
+    // Operator overloading
+    
+    // which means we try to make the opeartor behave in the way we want , in the form which it generally doesnt behave
+    
+    // like here we are trying to compare two objects but the "==" operator is used to compare two number or strings
+    
+    bool opeartor == (student &a){
+        if(name==a.name && age==a.age && gender==a.gender && marks==a.marks){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
 };
 
 int main()
@@ -122,6 +137,15 @@ int main()
     // using copy construtor
     
     student d=c; // or student d(c); , when we want to copy values of c to d
+    
+    // to see how to use operator overloading
+    
+    if(d==c){
+        cout<<"We the same"<<endl;
+    }
+    else{
+        cout<<"Not same bro"<<endl;
+    }
 
     return 0;
 }
