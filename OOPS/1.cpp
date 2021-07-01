@@ -83,7 +83,7 @@ class student{
     
     // like here we are trying to compare two objects but the "==" operator is used to compare two number or strings
     
-    bool opeartor == (student &a){
+    bool operator == (student &a){
         if(name==a.name && age==a.age && gender==a.gender && marks==a.marks){
             return true;
         }
