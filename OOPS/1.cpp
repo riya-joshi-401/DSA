@@ -26,11 +26,28 @@ class student{
     // This is called a Parameterised constructor 
     
     student(string s, int a, bool g, int m){
+        
+        cout<<"Hello :-) im a parametrised constructor !"<<endl;
         name=s;
         age=a;
         gender=g;
         marks=m;
     }
+    
+    // Copy constructor
+    
+    // passes address
+    student(student &a){
+        
+        cout<<"Hello :-) im a copy constructor !"<<endl;
+        
+        name=a.name;
+        age=a.age;
+        gender=a.gender;
+        marks=a.marks;
+        
+    }
+    
     
     // setter function
     void setMarks(int m){
@@ -88,10 +105,12 @@ int main()
         
     }
     
-    student c("Devansh",12,0,100); // writing values like this inside theobject directly is only possible if the constructor is defined.
+    student c("Devansh",12,0,100); // writing values like this inside the object directly is only possible if the Parameterised constructor is defined.
     c.printInfo();
 
+    // using copy construtor
     
+    student d=c; // or student d(c); , when we want to copy values of c to d
 
     return 0;
 }
