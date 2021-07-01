@@ -13,7 +13,7 @@ class student{
     int age;
     bool gender;
     
-    //Constructors: Three types: Default, Parameterised, Copy
+    //Constructors: gets called when obejcts are being created , Three types: Default, Parameterised, Copy
     // The order in which they will be callled : Parameterised, Default, Copy
     
     // default Constructor gets called when we dont make a constructor ourselves which has no parameters
@@ -39,6 +39,8 @@ class student{
     
     // Copy constructor
     
+    // they are of two types: shallow copy i.e the default copy constructor and deep copy i.e the one which we create for copying (explanation same as python vala)
+    
     // passes address
     student(student &a){
         
@@ -51,6 +53,12 @@ class student{
         
     }
     
+    // Destructors: gets called when objects when destroyed, will get called after ourcode exits from main() , and will get called the total numbers of objects defined in main times.
+    
+    ~student(){
+        
+        cout<<"Hello :-) destructor here!"<<endl;
+    }
     
     // setter function
     void setMarks(int m){
