@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/#:~:text=Difference%20between%20Abstraction%20and%20Encapsulation%3A%20%20%20,be%20implemented%20...%20%202%20more%20rows%20
