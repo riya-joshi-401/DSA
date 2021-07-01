@@ -13,7 +13,15 @@ class student{
     int age;
     bool gender;
     
+    // default Constructor gets called when we dont make a constructor ourselves which has no parameters
+    
+    student(){
+        cout<<"Hello :-) im a default constructor !"<<endl;
+    }
+    
     // Constructor , if defined it gets called by default without calling
+    
+    // This is called a Parameterised constructor 
     
     student(string s, int a, bool g, int m){
         name=s;
