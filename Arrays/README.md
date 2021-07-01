@@ -1,0 +1,1 @@
+<b>---></b> If time permits look for Boyer vote something algorithm. ( that majority element vala question requires it IG , tho i was able to solve it without still !! that question can easily be solved if  O(N) extra spaced is used but for O(1) space this algo is required.
