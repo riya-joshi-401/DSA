@@ -13,8 +13,23 @@ class student{
     int age;
     bool gender;
     
+    // Constructor , if defined it gets called by default without calling
+    
+    student(string s, int a, bool g, int m){
+        name=s;
+        age=a;
+        gender=g;
+        marks=m;
+    }
+    
+    // setter function
     void setMarks(int m){
         marks=m;
+    }
+    
+    //getter function : no need since printInfo is printing everything but cool noice for understanding purposes
+    void getMarks(int m){
+        cout<<m<<endl;
     }
     
     void printInfo(){
@@ -62,6 +77,10 @@ int main()
         arr[i].printInfo();
         
     }
+    
+    student c("Devansh",12,0,100); // writing values like this inside theobject directly is only possible if the constructor is defined.
+    // ATTENTION: this code wont compile since code above this was written when construtor was not defined now since its defined while calling a object we would have to pass the arguments inside it.
+    c.printInfo();
 
     
 
