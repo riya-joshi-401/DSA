@@ -13,6 +13,9 @@ class student{
     int age;
     bool gender;
     
+    //Constructors: Three types: Default, Parameterised, Copy
+    // The order in which they will be callled : Parameterised, Default, Copy
+    
     // default Constructor gets called when we dont make a constructor ourselves which has no parameters
     
     // This is called a default construtor
