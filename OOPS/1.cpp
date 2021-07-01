@@ -15,6 +15,8 @@ class student{
     
     // default Constructor gets called when we dont make a constructor ourselves which has no parameters
     
+    // This is called a default construtor
+    
     student(){
         cout<<"Hello :-) im a default constructor !"<<endl;
     }
@@ -87,7 +89,6 @@ int main()
     }
     
     student c("Devansh",12,0,100); // writing values like this inside theobject directly is only possible if the constructor is defined.
-    // ATTENTION: this code wont compile since code above this was written when construtor was not defined now since its defined while calling a object we would have to pass the arguments inside it.
     c.printInfo();
 
     
