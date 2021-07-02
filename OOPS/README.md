@@ -8,7 +8,7 @@
 <br>
 
 ----------------------------------------
-Friend function yet to be understand , didnt get it
+friend function understood from  madhavbahl oops notes - (3) 
 
 <b>To-be-read</b>
 <br>
