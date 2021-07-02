@@ -4,8 +4,6 @@
 <br>
 (2) https://madhavbahl.tech/OOPS/IntroToOOP/
 <br>
-(3) https://github.com/adrishyantee/myDSA/tree/master/Data%20Structures/OOPs
-<br>
 ----------------------------------------
 
 <b>To-be-read</b>
