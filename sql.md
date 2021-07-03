@@ -6,6 +6,8 @@
 <br>
 (4) Solving : https://www.hackerrank.com/domains/sql?filters%5Bdifficulty%5D%5B%5D=easy&filters%5Bstatus%5D%5B%5D=unsolved
 <BR>
-(5) mysql regex : https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
+(6) Aggregate functions: https://www.sqltutorial.org/sql-aggregate-functions/
+ <br>
+(7) mysql regex : https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
  <BR>
-(6) right, left, substring, charindex : https://social.technet.microsoft.com/wiki/contents/articles/17948.t-sql-right-left-substring-and-charindex-functions.aspx
+(8) right, left, substring, charindex : https://social.technet.microsoft.com/wiki/contents/articles/17948.t-sql-right-left-substring-and-charindex-functions.aspx
