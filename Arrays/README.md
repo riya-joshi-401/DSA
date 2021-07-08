@@ -1,4 +1,4 @@
----> https://github.com/riya-joshi-401/DSA/blob/main/Arrays/subarray%20with%20given%20sum%20only%20positive%20numbers.py
+---> https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum2804/1#
 
 ye samjh nhi samjha toh youtube / net
 
