@@ -22,3 +22,5 @@ class Solution:
 
 	    # Return maximum product found in array.
 	    return maxProduct
+	
+	:)
