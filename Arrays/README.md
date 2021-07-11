@@ -1,3 +1,5 @@
+----> im not doing trapping rain water, max profit sell vale ka hard question, finding factorial of large number
+<br>
 ---> https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum2804/1#
 
 ye samjh nhi samjha toh youtube / net
