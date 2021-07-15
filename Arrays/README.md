@@ -9,4 +9,7 @@ ye samjh nhi samjha toh youtube / net
 like this: https://ide.geeksforgeeks.org/69RjrF2kA0
 <br>
 
+---> Please try to understand the solution of this problem someday :) <b>Max Circular Subarray Sum</b>geeksforgeeks, hard problem
+<br>
+
 <b>---></b> If time permits look for Boyer vote something algorithm. ( that majority element vala question requires it IG , tho i was able to solve it without still !! that question can easily be solved if  O(N) extra spaced is used but for O(1) space this algo is required.
