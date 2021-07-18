@@ -16,3 +16,4 @@ case they are double.
 • Insertion sort is almost linear for partially sorted input.
 
 • Selection sort is best suits for elements with bigger values and small keys.
+
