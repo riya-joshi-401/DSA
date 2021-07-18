@@ -1,4 +1,6 @@
+- The algorithm gets its name from the way smaller elements “bubble” to the top of the list.
 - Worst case complexity : O(n**2)
 - Best case complexity (Improved version) : O(n)
 - Average case complexity (Basic version) : O(n**2)
 - Worst case space complexity : O(1) auxiliary
+- The only significant advantage that bubble sort has over other implementations is that it can detect whether the input list is already sorted or not.
