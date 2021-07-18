@@ -1,3 +1,7 @@
+- Selection sort works well for small files.
+- It is used for sorting the files with very large values and small keys.
+- This is because selection is made based on keys and swaps are made only when required.
+- This algorithm is called selection sort since it repeatedly selects the smallest element.
 - Worst case complexity : O(n**2)
 - Best case complexity : O(n**2)
 - Average case complexity : O(n**2)
