@@ -20,19 +20,30 @@ class Solution:
         
         if low<high:
             
+            # loc is partitioning index, arr[loc] is now at right place.
             loc=self.partition(arr,low,high)
+            
+            # Separately sorting elements before and after partitioning index.
             self.quickSort(arr,low,loc-1)
             self.quickSort(arr,loc+1,high)
     
+    # This function that takes last element as pivot, places the pivot element at 
+    # its correct position in sorted list, and places all smaller elements
+    # to left of pivot and all greater elements to right of pivot.
     def partition(self,arr,low,high):
         
-        pivot = arr[high]
-        i= low-1
+        pivot = arr[high] # Picking the pivot.
+        i= low-1 # Index of smaller element and indicates the right position of pivot found so far.
         for j in range(low,high):
+            # If current element is smaller than or equal to pivot we increment
+            # the value of i and swap the values at ith and jth index.
             if arr[j]<=pivot:
                 i+=1
+                # Swapping of values at ith and jth index.
                 arr[i],arr[j]=arr[j],arr[i]
-                
+        # At last, swapping of value at ith and the last index which was
+        # selected as pivot.        
         arr[i+1],arr[high]=arr[high],arr[i+1]
+        # returning the partitioning index. 
         return i+1
         
