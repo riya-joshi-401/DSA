@@ -1,13 +1,13 @@
 # my python solution :-)
 
 arr=set(arr)
-        for i in arr:
-            x= i-N
-            if x in arr:
-                return True
-                break
+for i in arr:
+   x= i-N
+   if x in arr:
+       return True
+       break
         
-        return False
+ return False
       
 # c++ solution : weird approach not mine , they are taking two pointers and starting them from 0,1 , i tried kandane algorithm on this but that didnt worked idk why ;/
 
