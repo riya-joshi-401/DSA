@@ -9,3 +9,5 @@
 - Merge sort accesses the data in a sequential manner
 - <b>This algorithm is used for sorting a linked list</b>
 - <b> stable algorithm </b>
+
+useful links: https://www.geeksforgeeks.org/merge-sort/
