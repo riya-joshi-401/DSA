@@ -10,4 +10,6 @@
 - <b>This algorithm is used for sorting a linked list</b>
 - <b> stable algorithm </b>
 
+![image](https://user-images.githubusercontent.com/53979947/126187990-b83222b9-0abd-49b0-81ce-79684917f5f5.png)
+
 useful link( sirf theory dekh upar ka , no code ): https://www.geeksforgeeks.org/merge-sort/
