@@ -1,4 +1,4 @@
-- not done: shell, tree, heap, counting, radix, bucket, 
+- not done: shell, tree, heap, counting, radix, bucket
 ---------------------------------------------------------------
 - Sorting algorithms are classified in different categories: by number of comparisons, by number of swaps, by memory usage, by recursion, by stability, by adaptability , internal/external sort.
 - Stability explanation:  https://www.geeksforgeeks.org/stability-in-sorting-algorithms/
