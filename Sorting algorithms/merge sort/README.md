@@ -6,3 +6,4 @@
 - Merge sort is Quick sort’s complement
 - Merge sort accesses the data in a sequential manner
 - <b>This algorithm is used for sorting a linked list</b>
+- <b> stable algorithm </b>
