@@ -1,0 +1,4 @@
+- Worst case complexity : Θ(nlogn)
+- Best case complexity : Θ(nlogn)
+- Average case complexity : Θ(nlogn)
+- Worst case space complexity: Θ(n) auxiliary
