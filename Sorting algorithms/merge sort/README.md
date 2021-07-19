@@ -3,6 +3,6 @@
 - Average case complexity : Θ(nlogn)
 - Worst case space complexity: Θ(n) auxiliary
 
-• Merge sort is Quick sort’s complement
-• Merge sort accesses the data in a sequential manner
-• This algorithm is used for sorting a linked list
+- Merge sort is Quick sort’s complement
+- Merge sort accesses the data in a sequential manner
+- This algorithm is used for sorting a linked list
