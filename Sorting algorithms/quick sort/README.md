@@ -1,4 +1,5 @@
-- Worst case Complexity: O(n**2)
-- Best case Complexity: O(nlogn)
-- Average case Complexity: O(nlogn)
-- Worst case space Complexity: O(1)
+- <in>Worst case Complexity</ins>: O(n**2)
+- <ins>Best case Complexity</ins>: O(nlogn)
+- <ins>Average case Complexity</ins>: O(nlogn)
+- <ins>Worst case space Complexity</ins>: O(1)
+- <b>unstable algorithm</b>
