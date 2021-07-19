@@ -1,7 +1,7 @@
-- Worst case complexity : Θ(nlogn)
-- Best case complexity : Θ(nlogn)
-- Average case complexity : Θ(nlogn)
-- Worst case space complexity: Θ(n) auxiliary
+- <ins>Worst case complexity </ins>: Θ(nlogn)
+- <ins>Best case complexity </ins>: Θ(nlogn)
+- <ins>Average case complexity </ins>: Θ(nlogn)
+- <ins>Worst case space complexity </ins>: Θ(n) auxiliary
 
 - Merge sort is Quick sort’s complement
 - Merge sort accesses the data in a sequential manner
