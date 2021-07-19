@@ -1,4 +1,4 @@
-- <in>Worst case Complexity</ins>: O(n**2)
+- <ins>Worst case Complexity</ins>: O(n**2)
 - <ins>Best case Complexity</ins>: O(nlogn)
 - <ins>Average case Complexity</ins>: O(nlogn)
 - <ins>Worst case space Complexity</ins>: O(1)
